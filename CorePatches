@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Revolver"]/weaponTags</xpath>
+				<value>
+					<li>ammo_pistol/80</li>
+				</value>
+			</li>
+			
+		   <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Autopistol"]/weaponTags</xpath>
+				<value>
+					<li>ammo_pistol/100</li>
+				</value>
+			</li>
+			
+ 		   <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MachinePistol"]</xpath>
+				<value>
+					<weaponTags>
+					<li>ammo_pistol/150</li>
+					</weaponTags>
+				</value>
+
+			</li> 
+			
+		   <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]</xpath>
+				<value>
+					<weaponTags>
+					<li>ammo_rifle/60</li>
+					</weaponTags>
+				</value>
+			</li>
+			
+		   <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_PumpShotgun"]</xpath>
+				<value>
+					<weaponTags>
+					<li>ammo_shotgun/360</li>
+					</weaponTags>
+				</value>
+			</li>
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_ChainShotgun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_shotgun/600</li>
+				</value>
+			</li>
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_HeavySMG"]/weaponTags</xpath>
+				<value>
+					<li>ammo_pistol/180</li>
+				</value>
+			</li>
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_LMG"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/240</li>
+				</value>
+			</li>
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_AssaultRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/150</li>
+				</value>
+			</li>	
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_SniperRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_heavy/50</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Minigun"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/625</li>
+				</value>
+			</li>
+			
+
+	
+		</operations>
+	</Operation>
+
+</Patch>
